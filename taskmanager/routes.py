@@ -8,4 +8,4 @@ def home():
     """
     To render the base.html
     """
-    return render_template("base.html")
+    return render_template("tasks.html")
