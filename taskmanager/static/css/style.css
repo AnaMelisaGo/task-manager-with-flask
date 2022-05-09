@@ -8,6 +8,10 @@ main {
   flex: 1 0 auto;
 }
 
+nav .brand-logo {
+  padding: 0 20px;
+}
+
 div .modal {
   background-color: rgba(0,0,0,0.8);
   top: 40%;
