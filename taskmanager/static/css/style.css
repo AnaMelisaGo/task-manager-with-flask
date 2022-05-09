@@ -25,3 +25,7 @@ div .modal {
 .modal .modal-footer .btn {
   margin: 6px 20px;
 }
+
+.datepicker-table {
+  color: white;
+}
