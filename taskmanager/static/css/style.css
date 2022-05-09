@@ -2,8 +2,22 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
+}
 
-  main {
-    flex: 1 0 auto;
-  }
+main {
+  flex: 1 0 auto;
+}
+
+div .modal {
+  background-color: rgba(0,0,0,0.8);
+  top: 40%;
+}
+
+.modal .modal-footer {
+  background-color: rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.modal .modal-footer .btn {
+  margin: 6px 20px;
+}
