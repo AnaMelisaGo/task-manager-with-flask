@@ -10,8 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // datepicker initialization
     let datepicker = document.querySelectorAll('.datepicker');
     M.Datepicker.init(datepicker, {
-      format: "dd mmm, yyyy",
-      i18n: {done: "Select"}
+      format: "mmm dd, yyyy",
+      i18n: {done: "Select"},
+      autoClose: "true"
     });
 
     // select initialization

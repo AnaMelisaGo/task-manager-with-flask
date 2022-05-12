@@ -12,13 +12,13 @@ nav .brand-logo {
   padding: 0 20px;
 }
 
-div .modal {
-  background-color: rgba(0,0,0,0.8);
+.modal {
+  background-color: rgba(255, 255, 255, 0.85);
   top: 40%;
 }
 
 .modal .modal-footer {
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(255, 255, 255, 0.85);
   text-align: center;
 }
 
@@ -26,9 +26,9 @@ div .modal {
   margin: 6px 20px;
 }
 
-.datepicker-table {
+/* .datepicker-table {
   color: white;
-}
+} */
 
 .collap-head-parag {
   margin: 0;
